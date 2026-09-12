@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": "996816b9-32bb-461f-9ba4-888cb73f3611",
+      "email": "admin@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$ra+Lwd/xTnW1jpsXZ8GGfA$i2Wzo4H73a0N6EhyML5npmEXNjDjr+xEa/Swzb4JcNE",
+      "name": "Admin Operator",
+      "createdAt": "2026-09-12T00:00:00.000Z",
+      "updatedAt": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "id": "fa99dd49-6963-4609-b773-971aff1875cd",
+      "email": "user_a_1789205040593@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$xl3e+RC4Gu4bjhPDU9K36w$MHlKg9jPZEFc61D9S9CBC6Tu0Nljo+tcOSFazcz97e0",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:00.593Z",
+      "updatedAt": "2026-09-12T09:24:00.593Z"
+    },
+    {
+      "id": "72c49443-613a-436f-bca6-e1606b9adb8e",
+      "email": "user_b_1789205040706@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$DU4zm3tlKQ6gb0YhC6M+ow$V14WKfkIWkB4/vH4pK7QoxCaaKprlN7YxNfX57hyj58",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:00.706Z",
+      "updatedAt": "2026-09-12T09:24:00.706Z"
+    },
+    {
+      "id": "caead790-979f-4bd1-af8a-eed36ee9cb0a",
+      "email": "user_a_1789205040916@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$atoK/8gcFuQSmq4PB49kuA$VQMC4htrmJucCLLKQ184iYVNR6seVjTsSZ7Li8XCM+s",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:00.916Z",
+      "updatedAt": "2026-09-12T09:24:00.916Z"
+    },
+    {
+      "id": "8b719108-e4e1-42b9-b0e7-fccdec8222f5",
+      "email": "user_b_1789205041056@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$+HmyS1t0EZFtNCZRKaAPdw$uuqg9f6xfqgAVzt7OS/FXkd0Sh0GsRuy0PW8zDRMkDI",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:01.056Z",
+      "updatedAt": "2026-09-12T09:24:01.056Z"
+    },
+    {
+      "id": "11a53558-1707-459c-94fa-a0430da47d1d",
+      "email": "user_a_1789205041207@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$gta2XMfshZFSrsYBG3Gd9A$jxWZRV5HxGj34tJR3sungvDS9K9sJVxl3p0DHfF9H4g",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:01.207Z",
+      "updatedAt": "2026-09-12T09:24:01.207Z"
+    },
+    {
+      "id": "8b714fea-8475-44d1-9064-c515b45d7651",
+      "email": "user_b_1789205041327@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$UlAcwE7LRGGlb8TSj2t/dA$/XSw3Ufl6nlHczbvhTvYsADEOR0NUcyC8bTJP4qbtV4",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:01.327Z",
+      "updatedAt": "2026-09-12T09:24:01.327Z"
+    },
+    {
+      "id": "4a0c259e-9ded-49a8-99d9-29c0d4645709",
+      "email": "user_a_1789205041496@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$43vQRE9DoUxF9v7D+hG97w$WjIas63puVI+Qt7sJTh81J3zyDX2jqArJqLg7hfSTiI",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:01.496Z",
+      "updatedAt": "2026-09-12T09:24:01.496Z"
+    },
+    {
+      "id": "f39c81c6-0106-4e93-8ef7-56c98b634a45",
+      "email": "user_b_1789205041582@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$o4tpHN7N827ZZvktCIUjLA$3E0BiM4nBY4MH/RkkhovyUsrHHqWza773xDlWyCxOlY",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:01.582Z",
+      "updatedAt": "2026-09-12T09:24:01.582Z"
+    },
+    {
+      "id": "e3b72117-5342-479e-87a0-351bca7575bf",
+      "email": "user_a_1789205041690@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$dsGucbz90bk4LsC/HbFDNQ$NY6sItoCe4/fj4q/j0iai2uiEi33OvaCJdSVqI6Tt1o",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:01.690Z",
+      "updatedAt": "2026-09-12T09:24:01.690Z"
+    },
+    {
+      "id": "9b61e622-1ad1-494c-bc43-20260303b8d8",
+      "email": "user_b_1789205042090@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$sAqt2DSfnZ3w86E+sYPAcQ$nu7DCw4N0dbHZ8syCzUTEIKfIYpSs9pMbto11SdGYwE",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:02.090Z",
+      "updatedAt": "2026-09-12T09:24:02.090Z"
+    },
+    {
+      "id": "c6dbaca0-b693-4ba1-bfbb-415e8710b97d",
+      "email": "user_a_1789205042445@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$IWoCRj165CaYGHYzLPpvFQ$5cPmv6QYK3ZzGAfUj2e4uyUZBfUwWOlpGuqIQxIzZfk",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:02.445Z",
+      "updatedAt": "2026-09-12T09:24:02.445Z"
+    },
+    {
+      "id": "08d5cee7-d936-4811-95d9-008fcd4ab8c5",
+      "email": "user_b_1789205042596@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$j2eMuNIMjL0/6MeymU27kw$L6OHbhlpfMQjDS3foxR2S0DyMuPeHs5JdThxlz9alQI",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:02.596Z",
+      "updatedAt": "2026-09-12T09:24:02.596Z"
+    },
+    {
+      "id": "8ec8e334-f3a1-49b8-99d9-91bc3745984e",
+      "email": "user_a_1789205042834@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$FP+YUkZM7oRHB2XsqYZUcg$rCunD6NqIE6YPDjiIl+SNTFBEznTEYa1FhisDEF8e9A",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:02.834Z",
+      "updatedAt": "2026-09-12T09:24:02.834Z"
+    },
+    {
+      "id": "c35e056f-0a47-41da-87ec-bf9aafb35874",
+      "email": "user_b_1789205043035@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$JHhgo6bWqq+X8KPWWvu68g$Ztg/gn7SRSdrjqR4dRiYOfIdfm0Xs6eZ/EzZ3oFML+U",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:03.035Z",
+      "updatedAt": "2026-09-12T09:24:03.035Z"
+    },
+    {
+      "id": "9a27c7b1-376d-4d8e-991f-a6ff9add177f",
+      "email": "user_a_1789205043244@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$hKtEjT0i7XfoSr+3qwan8A$gkJwL7cTwkWR+3CJUDNh7ooj+UboPFQeHWeTrWMWEt0",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:03.245Z",
+      "updatedAt": "2026-09-12T09:24:03.245Z"
+    },
+    {
+      "id": "7a9113c8-3af4-4c27-bfe5-14820753a7fa",
+      "email": "user_b_1789205043403@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$VhkGAZKTDC8QuNg2mL5BNQ$1YFS4xja0vS5CNP4D7vbem5lbydRT7uYUqFYti2IDok",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:03.403Z",
+      "updatedAt": "2026-09-12T09:24:03.403Z"
+    },
+    {
+      "id": "12ab4ab9-d493-4144-aeac-c1c269198034",
+      "email": "user_a_1789205043608@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$/r/Zn6aDeqZkuPxitRE5wA$sPr+pzpwf5UI1iHoqmbXE+0Nmc9wCK86j12x0X5yHeE",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:03.608Z",
+      "updatedAt": "2026-09-12T09:24:03.608Z"
+    },
+    {
+      "id": "1b14a3ee-fd1a-4118-a58c-35f6a921c10f",
+      "email": "user_b_1789205043767@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$VuW3T7+DRiSGbwcxx3Mk0Q$tcHROL3V83BeLC+AREYK4RDlPrK5oHFpvpvvUyas2rA",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:03.767Z",
+      "updatedAt": "2026-09-12T09:24:03.767Z"
+    },
+    {
+      "id": "52162e3b-4dc5-43ec-bec8-d4458b8ea470",
+      "email": "user_a_1789205043992@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$yQTCXXxtZ1gJpPMfHAq7nw$qMG3skBEsJ1mTOO0/2qHzUuho+jhqNjaQJiFS003DOk",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:03.992Z",
+      "updatedAt": "2026-09-12T09:24:03.992Z"
+    },
+    {
+      "id": "6c36f7af-67e0-48d7-8a71-c1b60dbe863f",
+      "email": "user_b_1789205044159@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$naqg6Pl2yZJ6JKVVLujPmA$2kT/E7fb0mDjMkNpCC89SbafhdaFuSvkea3g2Nt+tPo",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:04.159Z",
+      "updatedAt": "2026-09-12T09:24:04.159Z"
+    },
+    {
+      "id": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "email": "user_a_1789205044363@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$z0cfkgXZimwT9uI/r2v+Pg$ZEpdJ2LDdue8M0za0YTKmaYVI8TS+cXMMB3K0AGIvaI",
+      "name": "User A",
+      "createdAt": "2026-09-12T09:24:04.363Z",
+      "updatedAt": "2026-09-12T09:24:04.363Z"
+    },
+    {
+      "id": "5ba940f4-4494-4d3e-acb0-a1d349d3297d",
+      "email": "user_b_1789205044527@example.com",
+      "passwordHash": "$argon2id$v=19$m=65536,t=3,p=4$sc32Qqh36kU0PzHqsozHVw$pY0jEftcLZnFYRF8EJ8zeuNVGnIcMv0PUz0b5cJ7PBU",
+      "name": "User B",
+      "createdAt": "2026-09-12T09:24:04.527Z",
+      "updatedAt": "2026-09-12T09:24:04.527Z"
+    }
+  ],
+  "refreshTokens": [
+    {
+      "id": "e21c6789-1cb2-4dca-84cc-2e96a89d4b8a",
+      "userId": "996816b9-32bb-461f-9ba4-888cb73f3611",
+      "tokenHash": "bd720544e301d3807ed88385c5a8be23f980c4d1e7404638bdd76217fd1350d4",
+      "expiresAt": "2026-09-19T09:24:40.543Z",
+      "revokedAt": null,
+      "createdAt": "2026-09-12T09:24:40.543Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": "5c29ce17-79b5-473a-9716-290677736f1a",
+      "userId": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "deviceName": "Phone to Disconnect",
+      "deviceIdentifier": "hw-disconnect-test",
+      "manufacturer": "Unknown",
+      "model": "Generic",
+      "androidVersion": "Unknown",
+      "appVersion": "1.0.0",
+      "status": "DISCONNECTED",
+      "isOnline": false,
+      "lastSeen": "2026-09-12T09:24:04.562Z",
+      "lastSeenAt": "2026-09-12T09:24:04.562Z",
+      "createdAt": "2026-09-12T09:24:04.553Z",
+      "updatedAt": "2026-09-12T09:24:04.562Z"
+    }
+  ],
+  "pairingCodes": [
+    {
+      "id": "51b5edfc-4f24-448d-aa15-379c9f836e68",
+      "userId": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "codeHash": "5f95c3546a29445f88c095f4d74ff490d8ffe72ed31f6d6584c9d2fb43c9a44f",
+      "expiresAt": "2026-09-12T09:29:04.538Z",
+      "usedAt": "2026-09-12T09:24:04.552Z",
+      "attempts": 0,
+      "createdAt": "2026-09-12T09:24:04.540Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "8846e0ef-42d0-4760-839f-97679e8e0974",
+      "timestamp": "2026-09-12T09:24:04.541Z",
+      "userId": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "deviceId": null,
+      "action": "PAIRING_CODE_CREATED",
+      "metadata": {
+        "expiresAt": "2026-09-12T09:29:04.538Z",
+        "codePrefix": "YLC"
+      }
+    },
+    {
+      "id": "079c4464-060b-4a69-863d-abff066d697b",
+      "timestamp": "2026-09-12T09:24:04.555Z",
+      "userId": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "deviceId": "5c29ce17-79b5-473a-9716-290677736f1a",
+      "action": "PAIRING_SUCCESSFUL",
+      "metadata": {
+        "deviceName": "Phone to Disconnect",
+        "deviceIdentifier": "hw-disconnect-test",
+        "manufacturer": "Unknown",
+        "model": "Generic",
+        "ip": "::ffff:127.0.0.1"
+      }
+    },
+    {
+      "id": "0136df44-4909-486f-8850-6b05f9cea585",
+      "timestamp": "2026-09-12T09:24:04.563Z",
+      "userId": "7ff6717b-558e-4351-b84e-c07653d912c8",
+      "deviceId": "5c29ce17-79b5-473a-9716-290677736f1a",
+      "action": "DEVICE_DISCONNECTED",
+      "metadata": {
+        "deviceName": "Phone to Disconnect",
+        "reason": "DASHBOARD_DISCONNECT"
+      }
+    }
+  ],
+  "batteryStatus": [],
+  "storageStatus": []
+}

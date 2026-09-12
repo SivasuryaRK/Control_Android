@@ -1,0 +1,65 @@
+0 verbose cli D:\NodeJS\node.exe D:\NodeJS\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:D:\NodeJS\node_modules\npm\npmrc
+4 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+5 silly config load:file:D:\Claude Pro\Pro 3\.npmrc
+6 silly config load:file:C:\Users\Surya\.npmrc
+7 silly config load:file:C:\Users\Surya\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install
+9 verbose argv "--cache" ".npm-cache" "--tmp" ".tmp" "--cache-min" "0" "--prefer-offline" "false" "install"
+10 verbose logfile logs-max:10 dir:D:\Claude Pro\Pro 3\.npm-cache\_logs\2026-09-06T06_55_30_740Z-
+11 verbose logfile D:\Claude Pro\Pro 3\.npm-cache\_logs\2026-09-06T06_55_30_740Z-debug-0.log
+12 warn Unknown cli config "--tmp". This will stop working in the next major version of npm.
+13 silly logfile done cleaning log files
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly idealTree buildDeps
+16 silly fetch manifest react@^18.2.0
+17 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+18 silly fetch manifest react-dom@^18.2.0
+19 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+20 silly fetch manifest react-router-dom@^6.15.0
+21 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+22 silly fetch manifest @types/react@^18.0.0
+23 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+24 silly fetch manifest @types/react-dom@^18.0.0
+25 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+26 silly fetch manifest @vitejs/plugin-react@^4.0.0
+27 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+28 silly fetch manifest typescript@^5.0.0
+29 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+30 silly fetch manifest vite@^4.4.0
+31 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+32 silly fetch manifest @types/node@^20.0.0
+33 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+34 silly placeDep ROOT @types/node@ OK for: frontend@0.0.0 want: ^20.0.0
+35 silly placeDep ROOT @types/react@ OK for: frontend@0.0.0 want: ^18.0.0
+36 silly placeDep ROOT @types/react-dom@ OK for: frontend@0.0.0 want: ^18.0.0
+37 silly placeDep ROOT @vitejs/plugin-react@ OK for: frontend@0.0.0 want: ^4.0.0
+38 silly placeDep ROOT react@ OK for: frontend@0.0.0 want: ^18.2.0
+39 silly placeDep ROOT react-dom@ OK for: frontend@0.0.0 want: ^18.2.0
+40 silly placeDep ROOT react-router-dom@ OK for: frontend@0.0.0 want: ^6.15.0
+41 silly placeDep ROOT typescript@ OK for: frontend@0.0.0 want: ^5.0.0
+42 silly placeDep ROOT vite@ OK for: frontend@0.0.0 want: ^4.4.0
+43 verbose stack Error: request to https://registry.npmjs.org/@types%2fnode failed: cache mode is 'only-if-cached' but no cached response is available.
+43 verbose stack     at cacheFetch (D:\NodeJS\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+43 verbose stack     at async fetch (D:\NodeJS\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+43 verbose stack     at async RegistryFetcher.packument (D:\NodeJS\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+43 verbose stack     at async RegistryFetcher.manifest (D:\NodeJS\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+43 verbose stack     at async #fetchManifest (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1227:20)
+43 verbose stack     at async #nodeFromEdge (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1061:19)
+43 verbose stack     at async #buildDepStep (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:917:11)
+43 verbose stack     at async Arborist.buildIdealTree (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:170:7)
+43 verbose stack     at async Promise.all (index 1)
+43 verbose stack     at async Arborist.reify (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:110:5)
+44 error code ENOTCACHED
+45 error request to https://registry.npmjs.org/@types%2fnode failed: cache mode is 'only-if-cached' but no cached response is available.
+46 silly unfinished npm timer reify 1788677731245
+47 silly unfinished npm timer reify:loadTrees 1788677731251
+48 verbose cwd D:\Claude Pro\Pro 3
+49 verbose os Windows_NT 10.0.26200
+50 verbose node v24.14.1
+51 verbose npm  v11.11.0
+52 verbose exit 1
+53 verbose code 1
+54 error A complete log of this run can be found in: D:\Claude Pro\Pro 3\.npm-cache\_logs\2026-09-06T06_55_30_740Z-debug-0.log

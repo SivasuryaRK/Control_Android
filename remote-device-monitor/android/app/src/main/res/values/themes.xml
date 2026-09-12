@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.DevicePulse" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_primary</item>
+        <item name="colorPrimaryContainer">@color/accent_indigo</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.DevicePulse.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shield</item>
+        <item name="postSplashScreenTheme">@style/Theme.DevicePulse</item>
+    </style>
+
+    <!-- Alert Dialog Theme — used in permission onboarding flow -->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorPrimary">@color/accent_primary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Material3.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Material3.Button.TextButton</item>
+    </style>
+</resources>
+

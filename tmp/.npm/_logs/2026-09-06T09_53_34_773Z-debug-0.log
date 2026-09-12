@@ -1,0 +1,183 @@
+0 verbose cli D:\NodeJS\node.exe D:\NodeJS\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:D:\NodeJS\node_modules\npm\npmrc
+4 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+5 silly config load:file:D:\Claude Pro\Pro 3\.npmrc
+6 silly config load:file:D:\Claude Pro\Pro 3\tmp\.npmrc
+7 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+8 silly config load:file:C:\Users\Surya\AppData\Roaming\npm\etc\npmrc
+9 verbose title npm install
+10 verbose argv "install" "--cache-min" "0" "--prefer-offline" "false" "--loglevel" "error"
+11 verbose logfile logs-max:10 dir:D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_53_34_773Z-
+12 verbose logfile D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_53_34_773Z-debug-0.log
+13 silly logfile start cleaning logs, removing 1 files
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly logfile done cleaning log files
+16 silly idealTree buildDeps
+17 silly fetch manifest argon2@^0.4.0
+18 silly packumentCache full:https://registry.npmjs.org/argon2 cache-miss
+19 http cache https://registry.npmjs.org/argon2 56ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/argon2 set size:254339 disposed:false
+21 silly fetch manifest jsonwebtoken@^9.0.0
+22 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+23 http cache https://registry.npmjs.org/jsonwebtoken 14ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken set size:183413 disposed:false
+25 silly fetch manifest zod@^3.22.0
+26 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+27 http cache https://registry.npmjs.org/zod 26ms (cache hit)
+28 silly packumentCache full:https://registry.npmjs.org/zod set size:4147901 disposed:false
+29 silly fetch manifest helmet@^7.0.0
+30 silly packumentCache full:https://registry.npmjs.org/helmet cache-miss
+31 http cache https://registry.npmjs.org/helmet 18ms (cache hit)
+32 silly packumentCache full:https://registry.npmjs.org/helmet set size:345403 disposed:false
+33 silly fetch manifest express-rate-limit@^7.1.0
+34 silly packumentCache full:https://registry.npmjs.org/express-rate-limit cache-miss
+35 http cache https://registry.npmjs.org/express-rate-limit 8ms (cache hit)
+36 silly packumentCache full:https://registry.npmjs.org/express-rate-limit set size:461272 disposed:false
+37 silly fetch manifest express@^4.18.2
+38 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+39 http cache https://registry.npmjs.org/express 8ms (cache hit)
+40 silly packumentCache full:https://registry.npmjs.org/express set size:804975 disposed:false
+41 silly fetch manifest @types/argon2@*
+42 silly packumentCache full:https://registry.npmjs.org/@types%2fargon2 cache-miss
+43 http cache https://registry.npmjs.org/@types%2fargon2 8ms (cache hit)
+44 silly packumentCache full:https://registry.npmjs.org/@types%2fargon2 set size:8932 disposed:false
+45 silly fetch manifest @types/jsonwebtoken@^9.0.2
+46 silly packumentCache full:https://registry.npmjs.org/@types%2fjsonwebtoken cache-miss
+47 http cache https://registry.npmjs.org/@types%2fjsonwebtoken 13ms (cache hit)
+48 silly packumentCache full:https://registry.npmjs.org/@types%2fjsonwebtoken set size:129919 disposed:false
+49 silly fetch manifest @types/zod@*
+50 silly packumentCache full:https://registry.npmjs.org/@types%2fzod cache-miss
+51 http fetch GET 404 https://registry.npmjs.org/@types%2fzod 289ms (cache skip)
+52 silly fetch manifest @types/helmet@^4.0.0
+53 silly packumentCache full:https://registry.npmjs.org/@types%2fhelmet cache-miss
+54 http cache https://registry.npmjs.org/@types%2fhelmet 38ms (cache hit)
+55 silly packumentCache full:https://registry.npmjs.org/@types%2fhelmet set size:56224 disposed:false
+56 silly fetch manifest @types/express-rate-limit@^6.0.0
+57 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-rate-limit cache-miss
+58 http cache https://registry.npmjs.org/@types%2fexpress-rate-limit 11ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-rate-limit set size:60481 disposed:false
+60 silly placeDep ROOT @types/argon2@0.14.1 OK for: backend@1.0.0 want: *
+61 silly placeDep ROOT @types/express-rate-limit@6.0.2 OK for: backend@1.0.0 want: ^6.0.0
+62 silly placeDep ROOT @types/helmet@4.0.0 OK for: backend@1.0.0 want: ^4.0.0
+63 silly placeDep ROOT @types/jsonwebtoken@9.0.10 OK for: backend@1.0.0 want: ^9.0.2
+64 silly placeDep ROOT @types/zod@ OK for: backend@1.0.0 want: *
+65 silly placeDep ROOT argon2@0.4.2 OK for: backend@1.0.0 want: ^0.4.0
+66 silly placeDep ROOT express-rate-limit@7.5.1 OK for: backend@1.0.0 want: ^7.1.0
+67 silly placeDep ROOT helmet@7.2.0 OK for: backend@1.0.0 want: ^7.0.0
+68 silly placeDep ROOT jsonwebtoken@9.0.3 OK for: backend@1.0.0 want: ^9.0.0
+69 silly placeDep ROOT zod@3.25.76 OK for: backend@1.0.0 want: ^3.22.0
+70 silly fetch manifest express-rate-limit@*
+71 silly packumentCache full:https://registry.npmjs.org/express-rate-limit cache-hit
+72 silly fetch manifest helmet@*
+73 silly packumentCache full:https://registry.npmjs.org/helmet cache-hit
+74 silly fetch manifest @types/ms@*
+75 silly packumentCache full:https://registry.npmjs.org/@types%2fms cache-miss
+76 silly fetch manifest nan@^2.1.0
+77 silly packumentCache full:https://registry.npmjs.org/nan cache-miss
+78 silly fetch manifest bindings@^1.2.1
+79 silly packumentCache full:https://registry.npmjs.org/bindings cache-miss
+80 silly fetch manifest jws@^4.0.1
+81 silly packumentCache full:https://registry.npmjs.org/jws cache-miss
+82 silly fetch manifest semver@^7.5.4
+83 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+84 silly fetch manifest lodash.once@^4.0.0
+85 silly packumentCache full:https://registry.npmjs.org/lodash.once cache-miss
+86 silly fetch manifest lodash.includes@^4.3.0
+87 silly packumentCache full:https://registry.npmjs.org/lodash.includes cache-miss
+88 silly fetch manifest lodash.isnumber@^3.0.3
+89 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber cache-miss
+90 silly fetch manifest lodash.isstring@^4.0.1
+91 silly packumentCache full:https://registry.npmjs.org/lodash.isstring cache-miss
+92 silly fetch manifest lodash.isboolean@^3.0.3
+93 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean cache-miss
+94 silly fetch manifest lodash.isinteger@^4.0.4
+95 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger cache-miss
+96 http cache https://registry.npmjs.org/nan 119ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/nan set size:245791 disposed:false
+98 silly fetch manifest lodash.isplainobject@^4.0.6
+99 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject cache-miss
+100 http cache https://registry.npmjs.org/jws 129ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/jws set size:48740 disposed:false
+102 http cache https://registry.npmjs.org/@types%2fms 139ms (cache hit)
+103 silly packumentCache full:https://registry.npmjs.org/@types%2fms set size:24399 disposed:false
+104 http cache https://registry.npmjs.org/lodash.includes 130ms (cache hit)
+105 silly packumentCache full:https://registry.npmjs.org/lodash.includes set size:27594 disposed:false
+106 http cache https://registry.npmjs.org/semver 139ms (cache hit)
+107 silly packumentCache full:https://registry.npmjs.org/semver set size:246069 disposed:false
+108 http cache https://registry.npmjs.org/lodash.isstring 142ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/lodash.isstring set size:21368 disposed:false
+110 http cache https://registry.npmjs.org/bindings 155ms (cache hit)
+111 silly packumentCache full:https://registry.npmjs.org/bindings set size:31303 disposed:false
+112 http cache https://registry.npmjs.org/lodash.isinteger 127ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger set size:10827 disposed:false
+114 http cache https://registry.npmjs.org/lodash.isnumber 149ms (cache hit)
+115 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber set size:21368 disposed:false
+116 http cache https://registry.npmjs.org/lodash.isboolean 133ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean set size:21437 disposed:false
+118 http cache https://registry.npmjs.org/lodash.once 157ms (cache hit)
+119 silly packumentCache full:https://registry.npmjs.org/lodash.once set size:23407 disposed:false
+120 http cache https://registry.npmjs.org/lodash.isplainobject 45ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject set size:38531 disposed:false
+122 silly placeDep ROOT @types/ms@2.1.0 OK for: @types/jsonwebtoken@9.0.10 want: *
+123 silly placeDep ROOT bindings@1.5.0 OK for: argon2@0.4.2 want: ^1.2.1
+124 silly placeDep ROOT nan@2.28.0 OK for: argon2@0.4.2 want: ^2.1.0
+125 silly fetch manifest file-uri-to-path@1.0.0
+126 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path cache-miss
+127 http cache https://registry.npmjs.org/file-uri-to-path 10ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path set size:10154 disposed:false
+129 silly placeDep ROOT file-uri-to-path@1.0.0 OK for: bindings@1.5.0 want: 1.0.0
+130 silly placeDep ROOT jws@4.0.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.1
+131 silly placeDep ROOT lodash.includes@4.3.0 OK for: jsonwebtoken@9.0.3 want: ^4.3.0
+132 silly placeDep ROOT lodash.isboolean@3.0.3 OK for: jsonwebtoken@9.0.3 want: ^3.0.3
+133 silly placeDep ROOT lodash.isinteger@4.0.4 OK for: jsonwebtoken@9.0.3 want: ^4.0.4
+134 silly placeDep ROOT lodash.isnumber@3.0.3 OK for: jsonwebtoken@9.0.3 want: ^3.0.3
+135 silly placeDep ROOT lodash.isplainobject@4.0.6 OK for: jsonwebtoken@9.0.3 want: ^4.0.6
+136 silly placeDep ROOT lodash.isstring@4.0.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.1
+137 silly placeDep ROOT lodash.once@4.1.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.0
+138 silly placeDep ROOT semver@7.8.5 OK for: jsonwebtoken@9.0.3 want: ^7.5.4
+139 silly fetch manifest jwa@^2.0.1
+140 silly packumentCache full:https://registry.npmjs.org/jwa cache-miss
+141 http cache https://registry.npmjs.org/jwa 8ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/jwa set size:39720 disposed:false
+143 silly placeDep ROOT jwa@2.0.1 OK for: jws@4.0.1 want: ^2.0.1
+144 silly fetch manifest ecdsa-sig-formatter@1.0.11
+145 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter cache-miss
+146 silly fetch manifest buffer-equal-constant-time@^1.0.1
+147 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time cache-miss
+148 http cache https://registry.npmjs.org/ecdsa-sig-formatter 8ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter set size:23546 disposed:false
+150 http cache https://registry.npmjs.org/buffer-equal-constant-time 9ms (cache hit)
+151 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time set size:4390 disposed:false
+152 silly placeDep ROOT buffer-equal-constant-time@1.0.1 OK for: jwa@2.0.1 want: ^1.0.1
+153 silly placeDep ROOT ecdsa-sig-formatter@1.0.11 OK for: jwa@2.0.1 want: 1.0.11
+154 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@types%2fzod - Not found
+154 verbose stack     at D:\NodeJS\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+154 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+154 verbose stack     at async RegistryFetcher.packument (D:\NodeJS\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+154 verbose stack     at async RegistryFetcher.manifest (D:\NodeJS\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+154 verbose stack     at async #fetchManifest (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1227:20)
+154 verbose stack     at async #nodeFromEdge (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1061:19)
+154 verbose stack     at async #buildDepStep (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:917:11)
+154 verbose stack     at async Arborist.buildIdealTree (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:170:7)
+154 verbose stack     at async Promise.all (index 1)
+154 verbose stack     at async Arborist.reify (D:\NodeJS\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:110:5)
+155 verbose statusCode 404
+156 verbose pkgid @types/zod@*
+157 error code E404
+158 error 404 Not Found - GET https://registry.npmjs.org/@types%2fzod - Not found
+159 error 404
+160 error 404  The requested resource '@types/zod@*' could not be found or you do not have permission to access it.
+161 error 404
+162 error 404 Note that you can also install from a
+163 error 404 tarball, folder, http url, or git url.
+164 silly unfinished npm timer reify 1788688415706
+165 silly unfinished npm timer reify:loadTrees 1788688415710
+166 verbose cwd D:\Claude Pro\Pro 3
+167 verbose os Windows_NT 10.0.26200
+168 verbose node v24.14.1
+169 verbose npm  v11.11.0
+170 verbose exit 1
+171 verbose code 1
+172 error A complete log of this run can be found in: D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_53_34_773Z-debug-0.log

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.remotedevicemonitor.ui.welcome.WelcomeFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_welcome_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_welcome_to_status"
+            app:destination="@id/deviceStatusFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.remotedevicemonitor.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_permissions"
+            app:destination="@id/permissionsFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_status"
+            app:destination="@id/deviceStatusFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionsFragment"
+        android:name="com.example.remotedevicemonitor.ui.permissions.PermissionsFragment"
+        android:label="Permissions">
+        <action
+            android:id="@+id/action_permissions_to_status"
+            app:destination="@id/deviceStatusFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/deviceStatusFragment"
+        android:name="com.example.remotedevicemonitor.ui.status.DeviceStatusFragment"
+        android:label="Device Status">
+        <action
+            android:id="@+id/action_status_to_screenshare"
+            app:destination="@id/screenShareFragment" />
+        <action
+            android:id="@+id/action_status_to_permissions"
+            app:destination="@id/permissionsFragment" />
+        <action
+            android:id="@+id/action_status_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/deviceStatusFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/screenShareFragment"
+        android:name="com.example.remotedevicemonitor.ui.screenshare.ScreenShareFragment"
+        android:label="Screen Sharing" />
+
+</navigation>

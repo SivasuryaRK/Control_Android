@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevicePulse</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">DevicePulse</string>
+    <string name="welcome_subtitle">Real-time enterprise device telemetry &amp; remote monitoring</string>
+    <string name="welcome_feature_telemetry">Live battery, memory, and hardware telemetry</string>
+    <string name="welcome_feature_security">Enterprise-grade encryption backed by Android Keystore</string>
+    <string name="welcome_feature_screen">User-consented real-time screen sharing</string>
+    <string name="welcome_btn_get_started">Get Started</string>
+    <string name="welcome_btn_sign_in">Already paired? Sign In</string>
+
+    <!-- Auth -->
+    <string name="title_login">Sign In &amp; Pair</string>
+    <string name="subtitle_login">Authenticate this device to connect to your dashboard</string>
+    <string name="title_register">Create Device Account</string>
+    <string name="subtitle_register">Set up credentials to manage this device remotely</string>
+    <string name="title_pair">Pair with Dashboard Code</string>
+    <string name="subtitle_pair">Enter the 6-character code shown on your web dashboard</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_pairing_code">Pairing Code (e.g. 7K2-9M4)</string>
+    <string name="action_sign_in">Sign In &amp; Connect</string>
+    <string name="action_create_account">Register &amp; Connect</string>
+    <string name="action_pair_device">Verify &amp; Pair Device</string>
+    <string name="action_need_account">Don\'t have an account? Register</string>
+    <string name="action_already_have_account">Already have an account? Sign In</string>
+    <string name="action_switch_to_pair">Have a Dashboard Code? Pair with Code</string>
+    <string name="action_switch_to_login">Or Sign In with Email &amp; Password</string>
+    <string name="error_empty_fields">Please enter both email and password</string>
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_empty_pairing_code">Please enter the 6-character pairing code</string>
+    <string name="login_success">Authentication successful</string>
+    <string name="pair_success">Device paired and registered successfully!</string>
+
+    <!-- Device Status -->
+    <string name="device_status_title">Device Status</string>
+    <string name="device_status_subtitle">Hardware &amp; system health monitor</string>
+    <string name="status_active">MONITORING ACTIVE</string>
+    <string name="status_idle">MONITORING IDLE</string>
+    <string name="action_start_monitoring">Start Foreground Monitoring</string>
+    <string name="action_stop_monitoring">Stop Foreground Monitoring</string>
+    <string name="device_cloud_connected">Connected to DevicePulse Cloud</string>
+    <string name="device_cloud_registering">Registering device with server…</string>
+    <string name="status_refreshed">Status updated</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_discharging">On Battery</string>
+    <string name="label_hardware_info">Device Information</string>
+    <string name="label_battery">Battery Health</string>
+    <string name="label_storage">Internal Storage</string>
+    <string name="action_screenshare">Screen Sharing</string>
+    <string name="action_permissions">Privacy &amp; Permissions</string>
+    <string name="action_refresh">Refresh Telemetry</string>
+    <string name="action_logout">Unpair / Logout</string>
+
+    <!-- Permissions & Transparency -->
+    <string name="title_permissions">Transparency &amp; Permissions</string>
+    <string name="subtitle_permissions">Legitimate monitoring only. No hidden surveillance.</string>
+    <string name="privacy_badge">Zero Spyware Guarantee</string>
+    <string name="privacy_guarantee_desc">DevicePulse strictly monitors hardware vitals (battery, storage, model). It NEVER accesses your contacts, text messages, call history, passwords, or personal files.</string>
+    <string name="perm_notification_title">Ongoing Notifications</string>
+    <string name="perm_notification_desc">Required to display a persistent status icon whenever monitoring or screen sharing is running, ensuring you always know when data is syncing.</string>
+    <string name="status_granted">Granted</string>
+    <string name="status_not_granted">Action Required</string>
+    <string name="action_grant_notifications">Allow Notifications</string>
+    <string name="action_open_settings">Open System App Settings</string>
+    <string name="action_continue_dashboard">Continue to Status Dashboard</string>
+    <string name="permission_notifications_granted">Notification permission granted</string>
+    <string name="permission_notifications_denied">Notifications denied. You can enable them in App Settings.</string>
+    <string name="permission_already_granted">Notifications already permitted</string>
+
+    <!-- Screen Sharing -->
+    <string name="title_screenshare">Remote Screen Sharing</string>
+    <string name="subtitle_screenshare">Stream your display securely to authorized operators</string>
+    <string name="status_sharing_active">TRANSMITTING LIVE</string>
+    <string name="status_sharing_idle">STANDBY</string>
+    <string name="screenshare_notice_title">Explicit User Consent Required</string>
+    <string name="screenshare_notice_desc">Screen sharing uses the standard Android MediaProjection API. When you tap Start, Android displays a system security dialog confirming your approval. A persistent notification is shown throughout the session.</string>
+    <string name="action_start_sharing">Start Screen Sharing</string>
+    <string name="action_stop_sharing">Stop Screen Sharing</string>
+    <string name="screenshare_started">Screen sharing session initiated</string>
+    <string name="screenshare_stopped">Screen sharing stopped</string>
+    <string name="screenshare_denied">Screen capture permission declined</string>
+
+    <!-- Remote Control Accessibility Service -->
+    <string name="accessibility_service_description">DevicePulse Remote Control allows authorized operators to control this device from the web dashboard using touch gestures, hardware keys, and text input. This service is enabled only with your explicit consent.</string>
+</resources>

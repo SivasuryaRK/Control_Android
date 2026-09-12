@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  # Backend API & Socket.IO Telemetry Server
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: devicepulse-backend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - CORS_ORIGIN=http://localhost:5173,http://localhost:80,http://127.0.0.1:5173
+    volumes:
+      # Persist database file on host
+      - ./backend/data:/app/data
+    networks:
+      - devicepulse-net
+
+  # Frontend Dashboard (Vite + Nginx)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: devicepulse-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - devicepulse-net
+
+networks:
+  devicepulse-net:
+    driver: bridge

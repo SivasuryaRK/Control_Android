@@ -1,0 +1,271 @@
+0 verbose cli D:\NodeJS\node.exe D:\NodeJS\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:D:\NodeJS\node_modules\npm\npmrc
+4 silly config load:file:D:\Claude Pro\Pro 3\.npmrc
+5 silly config load:file:D:\Claude Pro\Pro 3\tmp\.npmrc
+6 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+7 silly config load:file:C:\Users\Surya\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install @types/zod@3.20.0
+9 verbose argv "install" "@types/zod@3.20.0" "--loglevel" "error"
+10 verbose logfile logs-max:10 dir:D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_57_14_156Z-
+11 verbose logfile D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_57_14_156Z-debug-0.log
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly idealTree buildDeps
+16 silly fetch manifest argon2@^0.4.0
+17 silly packumentCache full:https://registry.npmjs.org/argon2 cache-miss
+18 http fetch GET https://registry.npmjs.org/argon2 attempt 1 failed with ECONNREFUSED
+19 http fetch GET https://registry.npmjs.org/argon2 attempt 2 failed with ECONNREFUSED
+20 http fetch GET https://registry.npmjs.org/argon2 attempt 3 failed with ECONNREFUSED
+21 http fetch GET 200 https://registry.npmjs.org/argon2 70128ms (cache stale)
+22 silly packumentCache full:https://registry.npmjs.org/argon2 set size:254339 disposed:false
+23 silly fetch manifest jsonwebtoken@^9.0.0
+24 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+25 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 1 failed with ECONNREFUSED
+26 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 2 failed with ECONNREFUSED
+27 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 3 failed with ECONNREFUSED
+28 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 70065ms (cache stale)
+29 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken set size:183413 disposed:false
+30 silly fetch manifest zod@^3.22.0
+31 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+32 http fetch GET https://registry.npmjs.org/zod attempt 1 failed with ECONNREFUSED
+33 http fetch GET https://registry.npmjs.org/zod attempt 2 failed with ECONNREFUSED
+34 http fetch GET https://registry.npmjs.org/zod attempt 3 failed with ECONNREFUSED
+35 http fetch GET 200 https://registry.npmjs.org/zod 70088ms (cache stale)
+36 silly packumentCache full:https://registry.npmjs.org/zod set size:4147901 disposed:false
+37 silly fetch manifest helmet@^7.0.0
+38 silly packumentCache full:https://registry.npmjs.org/helmet cache-miss
+39 http fetch GET https://registry.npmjs.org/helmet attempt 1 failed with ECONNREFUSED
+40 http fetch GET https://registry.npmjs.org/helmet attempt 2 failed with ECONNREFUSED
+41 http fetch GET https://registry.npmjs.org/helmet attempt 3 failed with ECONNREFUSED
+42 http fetch GET 200 https://registry.npmjs.org/helmet 70082ms (cache stale)
+43 silly packumentCache full:https://registry.npmjs.org/helmet set size:345403 disposed:false
+44 silly fetch manifest express-rate-limit@^7.1.0
+45 silly packumentCache full:https://registry.npmjs.org/express-rate-limit cache-miss
+46 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 1 failed with ECONNREFUSED
+47 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 2 failed with ECONNREFUSED
+48 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 3 failed with ECONNREFUSED
+49 http fetch GET 200 https://registry.npmjs.org/express-rate-limit 70051ms (cache stale)
+50 silly packumentCache full:https://registry.npmjs.org/express-rate-limit set size:461272 disposed:false
+51 silly fetch manifest express@^4.18.2
+52 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+53 http fetch GET https://registry.npmjs.org/express attempt 1 failed with ECONNREFUSED
+54 http fetch GET https://registry.npmjs.org/express attempt 2 failed with ECONNREFUSED
+55 http fetch GET https://registry.npmjs.org/express attempt 3 failed with ECONNREFUSED
+56 http fetch GET 200 https://registry.npmjs.org/express 70045ms (cache stale)
+57 silly packumentCache full:https://registry.npmjs.org/express set size:804975 disposed:false
+58 silly fetch manifest @types/argon2@*
+59 silly packumentCache full:https://registry.npmjs.org/@types%2fargon2 cache-miss
+60 http fetch GET https://registry.npmjs.org/@types%2fargon2 attempt 1 failed with ECONNREFUSED
+61 http fetch GET https://registry.npmjs.org/@types%2fargon2 attempt 2 failed with ECONNREFUSED
+62 http fetch GET https://registry.npmjs.org/@types%2fargon2 attempt 3 failed with ECONNREFUSED
+63 http fetch GET 200 https://registry.npmjs.org/@types%2fargon2 70062ms (cache stale)
+64 silly packumentCache full:https://registry.npmjs.org/@types%2fargon2 set size:8932 disposed:false
+65 silly fetch manifest @types/jsonwebtoken@^9.0.2
+66 silly packumentCache full:https://registry.npmjs.org/@types%2fjsonwebtoken cache-miss
+67 http fetch GET https://registry.npmjs.org/@types%2fjsonwebtoken attempt 1 failed with ECONNREFUSED
+68 http fetch GET https://registry.npmjs.org/@types%2fjsonwebtoken attempt 2 failed with ECONNREFUSED
+69 http fetch GET https://registry.npmjs.org/@types%2fjsonwebtoken attempt 3 failed with ECONNREFUSED
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonwebtoken 70055ms (cache stale)
+71 silly packumentCache full:https://registry.npmjs.org/@types%2fjsonwebtoken set size:129919 disposed:false
+72 silly fetch manifest @types/zod@3.20.0
+73 silly packumentCache full:https://registry.npmjs.org/@types%2fzod cache-miss
+74 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 1 failed with ECONNREFUSED
+75 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 2 failed with ECONNREFUSED
+76 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 3 failed with ECONNREFUSED
+77 silly fetch manifest @types/helmet@^4.0.0
+78 silly packumentCache full:https://registry.npmjs.org/@types%2fhelmet cache-miss
+79 http fetch GET https://registry.npmjs.org/@types%2fhelmet attempt 1 failed with ECONNREFUSED
+80 http fetch GET https://registry.npmjs.org/@types%2fhelmet attempt 2 failed with ECONNREFUSED
+81 http fetch GET https://registry.npmjs.org/@types%2fhelmet attempt 3 failed with ECONNREFUSED
+82 http fetch GET 200 https://registry.npmjs.org/@types%2fhelmet 70074ms (cache stale)
+83 silly packumentCache full:https://registry.npmjs.org/@types%2fhelmet set size:56224 disposed:false
+84 silly fetch manifest @types/express-rate-limit@^6.0.0
+85 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-rate-limit cache-miss
+86 http fetch GET https://registry.npmjs.org/@types%2fexpress-rate-limit attempt 1 failed with ECONNREFUSED
+87 http fetch GET https://registry.npmjs.org/@types%2fexpress-rate-limit attempt 2 failed with ECONNREFUSED
+88 http fetch GET https://registry.npmjs.org/@types%2fexpress-rate-limit attempt 3 failed with ECONNREFUSED
+89 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-rate-limit 70037ms (cache stale)
+90 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-rate-limit set size:60481 disposed:false
+91 silly placeDep ROOT @types/argon2@0.14.1 OK for: backend@1.0.0 want: *
+92 silly placeDep ROOT @types/express-rate-limit@6.0.2 OK for: backend@1.0.0 want: ^6.0.0
+93 silly placeDep ROOT @types/helmet@4.0.0 OK for: backend@1.0.0 want: ^4.0.0
+94 silly placeDep ROOT @types/jsonwebtoken@9.0.10 OK for: backend@1.0.0 want: ^9.0.2
+95 silly placeDep ROOT @types/zod@ OK for: backend@1.0.0 want: 3.20.0
+96 silly placeDep ROOT argon2@0.4.2 OK for: backend@1.0.0 want: ^0.4.0
+97 silly placeDep ROOT express-rate-limit@7.5.1 OK for: backend@1.0.0 want: ^7.1.0
+98 silly placeDep ROOT helmet@7.2.0 OK for: backend@1.0.0 want: ^7.0.0
+99 silly placeDep ROOT jsonwebtoken@9.0.3 OK for: backend@1.0.0 want: ^9.0.0
+100 silly placeDep ROOT zod@3.25.76 OK for: backend@1.0.0 want: ^3.22.0
+101 silly fetch manifest express-rate-limit@*
+102 silly packumentCache full:https://registry.npmjs.org/express-rate-limit cache-hit
+103 silly fetch manifest helmet@*
+104 silly packumentCache full:https://registry.npmjs.org/helmet cache-hit
+105 silly fetch manifest @types/ms@*
+106 silly packumentCache full:https://registry.npmjs.org/@types%2fms cache-miss
+107 silly fetch manifest nan@^2.1.0
+108 silly packumentCache full:https://registry.npmjs.org/nan cache-miss
+109 silly fetch manifest bindings@^1.2.1
+110 silly packumentCache full:https://registry.npmjs.org/bindings cache-miss
+111 silly fetch manifest jws@^4.0.1
+112 silly packumentCache full:https://registry.npmjs.org/jws cache-miss
+113 silly fetch manifest semver@^7.5.4
+114 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+115 silly fetch manifest lodash.once@^4.0.0
+116 silly packumentCache full:https://registry.npmjs.org/lodash.once cache-miss
+117 silly fetch manifest lodash.includes@^4.3.0
+118 silly packumentCache full:https://registry.npmjs.org/lodash.includes cache-miss
+119 silly fetch manifest lodash.isnumber@^3.0.3
+120 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber cache-miss
+121 silly fetch manifest lodash.isstring@^4.0.1
+122 silly packumentCache full:https://registry.npmjs.org/lodash.isstring cache-miss
+123 silly fetch manifest lodash.isboolean@^3.0.3
+124 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean cache-miss
+125 silly fetch manifest lodash.isinteger@^4.0.4
+126 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger cache-miss
+127 http fetch GET https://registry.npmjs.org/nan attempt 1 failed with ECONNREFUSED
+128 http fetch GET https://registry.npmjs.org/semver attempt 1 failed with ECONNREFUSED
+129 http fetch GET https://registry.npmjs.org/@types%2fms attempt 1 failed with ECONNREFUSED
+130 http fetch GET https://registry.npmjs.org/lodash.isnumber attempt 1 failed with ECONNREFUSED
+131 http fetch GET https://registry.npmjs.org/bindings attempt 1 failed with ECONNREFUSED
+132 http fetch GET https://registry.npmjs.org/jws attempt 1 failed with ECONNREFUSED
+133 http fetch GET https://registry.npmjs.org/lodash.includes attempt 1 failed with ECONNREFUSED
+134 http fetch GET https://registry.npmjs.org/lodash.once attempt 1 failed with ECONNREFUSED
+135 http fetch GET https://registry.npmjs.org/lodash.isstring attempt 1 failed with ECONNREFUSED
+136 http fetch GET https://registry.npmjs.org/lodash.isboolean attempt 1 failed with ECONNREFUSED
+137 http fetch GET https://registry.npmjs.org/lodash.isinteger attempt 1 failed with ECONNREFUSED
+138 http fetch GET https://registry.npmjs.org/nan attempt 2 failed with ECONNREFUSED
+139 http fetch GET https://registry.npmjs.org/semver attempt 2 failed with ECONNREFUSED
+140 http fetch GET https://registry.npmjs.org/@types%2fms attempt 2 failed with ECONNREFUSED
+141 http fetch GET https://registry.npmjs.org/lodash.isnumber attempt 2 failed with ECONNREFUSED
+142 http fetch GET https://registry.npmjs.org/bindings attempt 2 failed with ECONNREFUSED
+143 http fetch GET https://registry.npmjs.org/jws attempt 2 failed with ECONNREFUSED
+144 http fetch GET https://registry.npmjs.org/lodash.includes attempt 2 failed with ECONNREFUSED
+145 http fetch GET https://registry.npmjs.org/lodash.once attempt 2 failed with ECONNREFUSED
+146 http fetch GET https://registry.npmjs.org/lodash.isstring attempt 2 failed with ECONNREFUSED
+147 http fetch GET https://registry.npmjs.org/lodash.isboolean attempt 2 failed with ECONNREFUSED
+148 http fetch GET https://registry.npmjs.org/lodash.isinteger attempt 2 failed with ECONNREFUSED
+149 http fetch GET https://registry.npmjs.org/nan attempt 3 failed with ECONNREFUSED
+150 http fetch GET https://registry.npmjs.org/semver attempt 3 failed with ECONNREFUSED
+151 http fetch GET https://registry.npmjs.org/@types%2fms attempt 3 failed with ECONNREFUSED
+152 http fetch GET https://registry.npmjs.org/lodash.isnumber attempt 3 failed with ECONNREFUSED
+153 http fetch GET https://registry.npmjs.org/bindings attempt 3 failed with ECONNREFUSED
+154 http fetch GET 200 https://registry.npmjs.org/nan 70118ms (cache stale)
+155 silly packumentCache full:https://registry.npmjs.org/nan set size:245791 disposed:false
+156 silly fetch manifest lodash.isplainobject@^4.0.6
+157 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject cache-miss
+158 http fetch GET https://registry.npmjs.org/jws attempt 3 failed with ECONNREFUSED
+159 http fetch GET https://registry.npmjs.org/lodash.includes attempt 3 failed with ECONNREFUSED
+160 http fetch GET 200 https://registry.npmjs.org/@types%2fms 70137ms (cache stale)
+161 silly packumentCache full:https://registry.npmjs.org/@types%2fms set size:24399 disposed:false
+162 http fetch GET 200 https://registry.npmjs.org/semver 70136ms (cache stale)
+163 silly packumentCache full:https://registry.npmjs.org/semver set size:246069 disposed:false
+164 http fetch GET https://registry.npmjs.org/lodash.once attempt 3 failed with ECONNREFUSED
+165 http fetch GET https://registry.npmjs.org/lodash.isstring attempt 3 failed with ECONNREFUSED
+166 http fetch GET https://registry.npmjs.org/lodash.isboolean attempt 3 failed with ECONNREFUSED
+167 http fetch GET https://registry.npmjs.org/lodash.isinteger attempt 3 failed with ECONNREFUSED
+168 http fetch GET 200 https://registry.npmjs.org/lodash.isnumber 70147ms (cache stale)
+169 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber set size:21368 disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/bindings 70155ms (cache stale)
+171 silly packumentCache full:https://registry.npmjs.org/bindings set size:31303 disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/jws 70156ms (cache stale)
+173 silly packumentCache full:https://registry.npmjs.org/jws set size:48740 disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/lodash.includes 70154ms (cache stale)
+175 silly packumentCache full:https://registry.npmjs.org/lodash.includes set size:27594 disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/lodash.once 70159ms (cache stale)
+177 silly packumentCache full:https://registry.npmjs.org/lodash.once set size:23407 disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/lodash.isinteger 70153ms (cache stale)
+179 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger set size:10827 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/lodash.isboolean 70155ms (cache stale)
+181 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean set size:21437 disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/lodash.isstring 70162ms (cache stale)
+183 silly packumentCache full:https://registry.npmjs.org/lodash.isstring set size:21368 disposed:false
+184 http fetch GET https://registry.npmjs.org/lodash.isplainobject attempt 1 failed with ECONNREFUSED
+185 http fetch GET https://registry.npmjs.org/lodash.isplainobject attempt 2 failed with ECONNREFUSED
+186 http fetch GET https://registry.npmjs.org/lodash.isplainobject attempt 3 failed with ECONNREFUSED
+187 http fetch GET 200 https://registry.npmjs.org/lodash.isplainobject 70121ms (cache stale)
+188 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject set size:38531 disposed:false
+189 silly placeDep ROOT @types/ms@2.1.0 OK for: @types/jsonwebtoken@9.0.10 want: *
+190 silly placeDep ROOT bindings@1.5.0 OK for: argon2@0.4.2 want: ^1.2.1
+191 silly placeDep ROOT nan@2.28.0 OK for: argon2@0.4.2 want: ^2.1.0
+192 silly fetch manifest file-uri-to-path@1.0.0
+193 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path cache-miss
+194 http fetch GET https://registry.npmjs.org/file-uri-to-path attempt 1 failed with ECONNREFUSED
+195 http fetch GET https://registry.npmjs.org/file-uri-to-path attempt 2 failed with ECONNREFUSED
+196 http fetch GET https://registry.npmjs.org/file-uri-to-path attempt 3 failed with ECONNREFUSED
+197 http fetch GET 200 https://registry.npmjs.org/file-uri-to-path 70067ms (cache stale)
+198 silly packumentCache full:https://registry.npmjs.org/file-uri-to-path set size:10154 disposed:false
+199 silly placeDep ROOT file-uri-to-path@1.0.0 OK for: bindings@1.5.0 want: 1.0.0
+200 silly placeDep ROOT jws@4.0.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.1
+201 silly placeDep ROOT lodash.includes@4.3.0 OK for: jsonwebtoken@9.0.3 want: ^4.3.0
+202 silly placeDep ROOT lodash.isboolean@3.0.3 OK for: jsonwebtoken@9.0.3 want: ^3.0.3
+203 silly placeDep ROOT lodash.isinteger@4.0.4 OK for: jsonwebtoken@9.0.3 want: ^4.0.4
+204 silly placeDep ROOT lodash.isnumber@3.0.3 OK for: jsonwebtoken@9.0.3 want: ^3.0.3
+205 silly placeDep ROOT lodash.isplainobject@4.0.6 OK for: jsonwebtoken@9.0.3 want: ^4.0.6
+206 silly placeDep ROOT lodash.isstring@4.0.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.1
+207 silly placeDep ROOT lodash.once@4.1.1 OK for: jsonwebtoken@9.0.3 want: ^4.0.0
+208 silly placeDep ROOT semver@7.8.5 OK for: jsonwebtoken@9.0.3 want: ^7.5.4
+209 silly fetch manifest jwa@^2.0.1
+210 silly packumentCache full:https://registry.npmjs.org/jwa cache-miss
+211 http fetch GET https://registry.npmjs.org/jwa attempt 1 failed with ECONNREFUSED
+212 http fetch GET https://registry.npmjs.org/jwa attempt 2 failed with ECONNREFUSED
+213 http fetch GET https://registry.npmjs.org/jwa attempt 3 failed with ECONNREFUSED
+214 http fetch GET 200 https://registry.npmjs.org/jwa 70068ms (cache stale)
+215 silly packumentCache full:https://registry.npmjs.org/jwa set size:39720 disposed:false
+216 silly placeDep ROOT jwa@2.0.1 OK for: jws@4.0.1 want: ^2.0.1
+217 silly fetch manifest ecdsa-sig-formatter@1.0.11
+218 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter cache-miss
+219 silly fetch manifest buffer-equal-constant-time@^1.0.1
+220 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time cache-miss
+221 http fetch GET https://registry.npmjs.org/buffer-equal-constant-time attempt 1 failed with ECONNREFUSED
+222 http fetch GET https://registry.npmjs.org/ecdsa-sig-formatter attempt 1 failed with ECONNREFUSED
+223 http fetch GET https://registry.npmjs.org/buffer-equal-constant-time attempt 2 failed with ECONNREFUSED
+224 http fetch GET https://registry.npmjs.org/ecdsa-sig-formatter attempt 2 failed with ECONNREFUSED
+225 http fetch GET https://registry.npmjs.org/buffer-equal-constant-time attempt 3 failed with ECONNREFUSED
+226 http fetch GET https://registry.npmjs.org/ecdsa-sig-formatter attempt 3 failed with ECONNREFUSED
+227 http fetch GET 200 https://registry.npmjs.org/buffer-equal-constant-time 70039ms (cache stale)
+228 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time set size:4390 disposed:false
+229 http fetch GET 200 https://registry.npmjs.org/ecdsa-sig-formatter 70041ms (cache stale)
+230 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter set size:23546 disposed:false
+231 silly placeDep ROOT buffer-equal-constant-time@1.0.1 OK for: jwa@2.0.1 want: ^1.0.1
+232 silly placeDep ROOT ecdsa-sig-formatter@1.0.11 OK for: jwa@2.0.1 want: 1.0.11
+233 verbose type system
+234 verbose stack FetchError: request to https://registry.npmjs.org/@types%2fzod failed, reason: connect ECONNREFUSED 127.0.0.1:9
+234 verbose stack     at ClientRequest.<anonymous> (D:\NodeJS\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+234 verbose stack     at ClientRequest.emit (node:events:508:28)
+234 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+234 verbose stack     at _destroy (node:_http_client:963:9)
+234 verbose stack     at onSocketNT (node:_http_client:983:5)
+234 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+235 error code ECONNREFUSED
+236 error syscall connect
+237 error errno ECONNREFUSED
+238 error FetchError: request to https://registry.npmjs.org/@types%2fzod failed, reason: connect ECONNREFUSED 127.0.0.1:9
+238 error     at ClientRequest.<anonymous> (D:\NodeJS\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+238 error     at ClientRequest.emit (node:events:508:28)
+238 error     at emitErrorEvent (node:_http_client:108:11)
+238 error     at _destroy (node:_http_client:963:9)
+238 error     at onSocketNT (node:_http_client:983:5)
+238 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+238 error   code: 'ECONNREFUSED',
+238 error   errno: 'ECONNREFUSED',
+238 error   syscall: 'connect',
+238 error   address: '127.0.0.1',
+238 error   port: 9,
+238 error   type: 'system',
+238 error   requiredBy: '.'
+238 error }
+239 error
+239 error If you are behind a proxy, please make sure that the
+239 error 'proxy' config is set properly.  See: 'npm help config'
+240 silly unfinished npm timer reify 1788688634707
+241 silly unfinished npm timer reify:loadTrees 1788688634708
+242 verbose cwd D:\Claude Pro\Pro 3
+243 verbose os Windows_NT 10.0.26200
+244 verbose node v24.14.1
+245 verbose npm  v11.11.0
+246 verbose exit 1
+247 verbose code 1
+248 error A complete log of this run can be found in: D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_57_14_156Z-debug-0.log

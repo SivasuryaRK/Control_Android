@@ -1,0 +1,57 @@
+0 verbose cli D:\NodeJS\node.exe D:\NodeJS\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+3 silly config load:file:D:\NodeJS\node_modules\npm\npmrc
+4 silly config load:file:D:\Claude Pro\Pro 3\.npmrc
+5 silly config load:file:D:\Claude Pro\Pro 3\tmp\.npmrc
+6 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+7 silly config load:file:C:\Users\Surya\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install @types/zod@latest
+9 verbose argv "install" "@types/zod@latest" "--loglevel" "error"
+10 verbose logfile logs-max:10 dir:D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_56_07_094Z-
+11 verbose logfile D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_56_07_094Z-debug-0.log
+12 silly logfile start cleaning logs, removing 1 files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly logfile done cleaning log files
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fzod cache-miss
+16 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 1 failed with ECONNREFUSED
+17 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 2 failed with ECONNREFUSED
+18 http fetch GET https://registry.npmjs.org/@types%2fzod attempt 3 failed with ECONNREFUSED
+19 verbose type system
+20 verbose stack FetchError: request to https://registry.npmjs.org/@types%2fzod failed, reason: connect ECONNREFUSED 127.0.0.1:9
+20 verbose stack     at ClientRequest.<anonymous> (D:\NodeJS\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+20 verbose stack     at ClientRequest.emit (node:events:508:28)
+20 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+20 verbose stack     at _destroy (node:_http_client:963:9)
+20 verbose stack     at onSocketNT (node:_http_client:983:5)
+20 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+21 error code ECONNREFUSED
+22 error syscall connect
+23 error errno ECONNREFUSED
+24 error FetchError: request to https://registry.npmjs.org/@types%2fzod failed, reason: connect ECONNREFUSED 127.0.0.1:9
+24 error     at ClientRequest.<anonymous> (D:\NodeJS\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+24 error     at ClientRequest.emit (node:events:508:28)
+24 error     at emitErrorEvent (node:_http_client:108:11)
+24 error     at _destroy (node:_http_client:963:9)
+24 error     at onSocketNT (node:_http_client:983:5)
+24 error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+24 error   code: 'ECONNREFUSED',
+24 error   errno: 'ECONNREFUSED',
+24 error   syscall: 'connect',
+24 error   address: '127.0.0.1',
+24 error   port: 9,
+24 error   type: 'system'
+24 error }
+25 error
+25 error If you are behind a proxy, please make sure that the
+25 error 'proxy' config is set properly.  See: 'npm help config'
+26 silly unfinished npm timer reify 1788688567762
+27 silly unfinished npm timer reify:loadTrees 1788688567769
+28 silly unfinished npm timer idealTree:userRequests 1788688567840
+29 verbose cwd D:\Claude Pro\Pro 3
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v24.14.1
+32 verbose npm  v11.11.0
+33 verbose exit 1
+34 verbose code 1
+35 error A complete log of this run can be found in: D:\Claude Pro\Pro 3\tmp\.npm\_logs\2026-09-06T09_56_07_094Z-debug-0.log
